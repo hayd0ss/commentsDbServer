@@ -6,7 +6,7 @@ client.connect(err => {
   if (err) throw err;
 });
 
-const collection = client.db("vc_c2c_messages_db").collection("vcMessageCollection");
+const collection = client.db("vc_c2c_comments_db").collection("vcCommentsCollection");
 
 module.exports = { collection, ObjectId }
 
